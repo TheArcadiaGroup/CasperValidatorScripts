@@ -3,3 +3,6 @@ curl -o casperlabs-public.key.asc https://bintray.com/user/downloadSubjectPublic
 sudo apt-key add casperlabs-public.key.asc -y
 sudo apt update -y
 sudo apt install casperlabs -y
+mkdir -p ~/.casperlabs/chainspec/genesis
+curl -O https://raw.githubusercontent.com/CasperLabs/CasperLabs/dev/testnet/accounts.csv
+curl -O https://raw.githubusercontent.com/CasperLabs/CasperLabs/dev/testnet/manifest.toml
