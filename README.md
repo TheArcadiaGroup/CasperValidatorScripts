@@ -3,6 +3,7 @@ Keeping things simple setuping up and maintaining a Casper Validator Node
 
 Scripts:
 * Install
+* Start
 * Update
 * Turn Off
 
