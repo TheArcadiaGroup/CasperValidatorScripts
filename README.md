@@ -7,6 +7,8 @@ Scripts:
 * Update
 * Turn Off
 
+Config:
+* Modify Casper.sh to put your paths. 
 
 License:
 This is free software, use at your own peril, do what you want with it. 
