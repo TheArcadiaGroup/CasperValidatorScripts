@@ -8,3 +8,5 @@ cd ~/.casperlabs/chainspec/genesis
 curl -O https://raw.githubusercontent.com/CasperLabs/CasperLabs/dev/testnet/accounts.csv
 curl -O https://raw.githubusercontent.com/CasperLabs/CasperLabs/dev/testnet/manifest.toml
 pm2 start all
+cd ~/CasperValidatorScripts/
+git pull
